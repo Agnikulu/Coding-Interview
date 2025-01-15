@@ -1,4 +1,5 @@
 public class MaxAreaOfIsland {
+    
     private static int dfs(int row, int col, int[][] grid) {
         if (row < 0 || row >= grid.length || col < 0 || col >= grid[0].length || grid[row][col] == 0) {
             return 0;
