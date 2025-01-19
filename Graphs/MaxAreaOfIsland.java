@@ -1,5 +1,4 @@
 public class MaxAreaOfIsland {
-    
     private static int dfs(int row, int col, int[][] grid) {
         if (row < 0 || row >= grid.length || col < 0 || col >= grid[0].length || grid[row][col] == 0) {
             return 0;
@@ -19,15 +18,5 @@ public class MaxAreaOfIsland {
             }
         }
         return ans;
-    }
-
-    public static void main(String[] args) {
-        int grid[][] = {
-            {0, 1, 1, 0, 1},
-            {1, 0, 1, 0, 1},
-            {0, 1, 1, 0, 1},
-            {0, 1, 0, 0, 1}
-        };
-        System.out.println(maxAreaOfIsland(grid));
     }
 }

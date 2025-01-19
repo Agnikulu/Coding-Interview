@@ -13,11 +13,4 @@ public class ContainerWithMostWater {
         }
         return ans;
     }
-
-    public static void main(String[] args) {
-        int heights1[] = {1, 7, 2, 5, 4, 7, 3, 6};
-        int heights2[] = {2, 2, 2};
-        System.out.println(maxArea(heights1));
-        System.out.println(maxArea(heights2));
-    }
 }

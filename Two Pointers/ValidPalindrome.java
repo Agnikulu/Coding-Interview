@@ -17,11 +17,4 @@ public class ValidPalindrome {
         
         return true;
     }
-
-    public static void main(String[] args) {
-        String s1 = "Was it a car or a cat I saw?";
-        String s2 = "tab a cat";
-        System.out.println(isPalindrome(s1));
-        System.out.println(isPalindrome(s2));
-    }
 }

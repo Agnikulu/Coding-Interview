@@ -21,13 +21,4 @@ public class ValidAnagram {
         }
         return true;
     }
-
-    public static void main(String[] args) {
-        String s1 = "racecar";
-        String s2 = "carrace";
-        String s3 = "jar";
-        String s4 = "jam";
-        System.out.println(isAnagram(s1, s2));
-        System.out.println(isAnagram(s3, s4));
-    }
 }

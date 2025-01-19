@@ -13,12 +13,4 @@ public class TwoIntegerSumII {
         }
         return new int[] {-1, -1};
     }
-
-    public static void main(String[] args) {
-        int numbers[] = {1, 2, 3, 4};
-        int target = 3;
-
-        int ans[] = twoSum(numbers, target);
-        System.out.println(ans[0] + " " + ans[1]);
-    }
 }

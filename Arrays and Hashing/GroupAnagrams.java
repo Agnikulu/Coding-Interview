@@ -25,20 +25,6 @@ public class GroupAnagrams {
             hashmap.put(curr, group);
         }
 
-        /* 
-        List<List<String>> ans = new ArrayList<List<String>>();
-        for (ArrayList<String> group : hashmap.values()) {
-            System.out.println(group);
-            ans.add(group);
-        }
-        return ans;
-        */
         return new ArrayList<>(hashmap.values());
-    }
-
-    public static void main(String[] args) {
-        String[] strs1 = { "act", "pots", "tops", "cat", "stop", "hat" };
-        List<List<String>> ans1 = groupAnagrams(strs1);
-        System.out.println(ans1);
     }
 }
